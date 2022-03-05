@@ -124,5 +124,5 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-django_heroku.settings(locals())
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+django_heroku.settings(locals(), test_runner=False)
