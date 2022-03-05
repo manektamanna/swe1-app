@@ -1,2 +1,7 @@
 gunicorn
 django-heroku
+python-dotenv
+black
+flake8
+coverage
+coveralls
